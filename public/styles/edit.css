@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #58a7db;
+    background: linear-gradient(90deg,rgba(88, 167, 219, 1) 0%, rgba(82, 217, 138, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 35px;
+    width: 94%;
+    height: 90%;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: thin;
+    height: 0px;
+}
+
+ul {
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin-bottom: 25px;
+    border-radius: 20px;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#postInfo {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.options form{
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 5px;
+    flex-direction: column;
+}
+
+#separator {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#content {
+    height: 200px;
+}
+
+input {
+    width: 41.8%;
+}
+
+button {
+    outline: none;
+    border: 1px solid rgb(161, 161, 161);
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button:focus {
+    box-shadow: 0 0 0 0.5px rgb(136, 136, 136);
+}
+
+button:hover {
+    box-shadow: 0 0 0 0.5px rgb(116, 116, 116);
+    transition-duration: 0.4s;
+}
+
+/*------------------------   Properties for various media formats   ------------------------*/
+
+@media (max-width: 1300px) {
+    #main-container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 950px) {
+    #main-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    #main-container {
+        width: 90%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    form {
+        display: grid;
+    }
+
+    button {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
