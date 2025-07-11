@@ -1,12 +1,12 @@
-# React + Vite
+This is Mini-Project 4 for CS312.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For this assignment, I took the old express server that used EJS tags and adapted it over to a React framework. For functionality with grabbing posts, I took the original blog post site and continued to use it as a backend server for the new React components.
 
-Currently, two official plugins are available:
+I apologize in advance, some components were not fully finished by the time of submission. I did the most that I could, as it took a while for me to understand React and all the things that were needed for this assignment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To view the assignment as intended, download the files involved in the second commit that are marked as "files for backend". Use "node index.js" and start the server on port 3001 to initiate the backend. From there, download the first commit "main files" and use "npm run dev" to run the front end with all of the React stuff. Everything should be able to work as it did in the video.
 
-## Expanding the ESLint configuration
+If there are any problems with loading/viewing these files, please let me know. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Thanks,
+Eric
